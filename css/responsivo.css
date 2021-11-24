@@ -1,0 +1,180 @@
+
+/*Estilo para smartphone*/
+@media (max-width: 376px) {
+
+
+.header{
+	width: 100%;
+}
+
+.header .navbar .btn-primary {
+	margin: 0 20px;
+}
+
+
+/*--------------------------------------*/
+
+
+.ocean-banner h1 {
+	font-size: 32px;
+	text-align: center;
+	padding: 0 1rem;
+}
+
+.ocean-banner h1 br {
+	display: none;
+}
+
+.ocean-banner form {
+	width: 100%;
+	padding: 0 1rem;
+}
+
+.ocean-banner form input{
+	width: 60%;
+}
+
+.ocean-banner form .btn-submit{
+	padding: 0 20px;
+}
+
+/*--------------------------------------*/
+
+
+.information-icons .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.information-icons .container .fully br,
+.information-icons .container .ready br,
+.information-icons .container .use br{
+	display: none;
+}
+
+.information-icons .container .fully,
+.information-icons .container .ready{
+	margin-bottom: 70px;
+}
+
+.information-icons .container .fully,
+.information-icons .container .ready,
+.information-icons .container .use{
+	width: 100%;
+}
+
+.information-icons .container p {
+	font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.information-icons .container h3 {
+	font-size: 23px;
+
+}
+
+/*--------------------------------------*/
+
+.showcase-single {
+	flex-wrap: wrap;
+}
+
+.showcase-single .image {
+	min-height: 30rem;
+	background-size: cover;
+	width: 100%;
+}
+
+.content {
+	padding: 0px;
+	text-align: center;
+}
+
+.content h2{
+	font-size: 24px;
+}
+
+
+
+.showcase-single .content {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.showcase-single:nth-of-type(1) .content{
+    order: 1;
+}
+
+.showcase-single:nth-of-type(2) .image{
+    order: 1;
+}
+
+.showcase-single:nth-of-type(3) .image{
+    order: 1;
+}
+
+.showcase-single:nth-of-type(3) .content{
+    order: 2;
+}
+
+
+/*--------------------------------------*/
+
+
+.users {
+	padding: 90px 0;
+}
+
+.users .container h2 {
+	font-size: 24px;
+}
+
+.users .row{
+	flex-direction: column;
+}
+
+.users .row .column{
+	margin-bottom: 40px;
+}
+
+
+.ocean-banner-two h1 {
+	font-size: 32px;
+	text-align: center;
+	padding: 0 1rem;
+}
+
+.ocean-banner-two h1 br {
+	display: none;
+}
+
+.ocean-banner-two form {
+	width: 100%;
+	padding: 0 1rem;
+}
+
+.ocean-banner-two form input{
+	width: 60%;
+}
+
+.ocean-banner-two form .btn-submit{
+	padding: 0 20px;
+}
+
+
+/*--------------------------------------*/
+
+
+.footer .container {
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer .container p {
+	margin-bottom: 20px;
+}
+
+} /*Final do estilo para smartphone*/

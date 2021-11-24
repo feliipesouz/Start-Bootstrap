@@ -1,0 +1,367 @@
+/* Estilos Gerais */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+img {
+    display: block; /* Isso vai tirar uma margin pequena que tem nas imagens, o que irá facilitar o nosso trabalho com elas. */
+    max-width: 100%;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+input {
+     border: 0;
+     outline: 0;
+}
+
+
+
+.header {
+    top: 0;
+	width: 100%;
+	background: #f8f9fa;/*#f8f9fa;*/	
+	padding: 12px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3%;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 16px;
+    background-color: #0d6efd;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    display: block;
+}
+
+.ocean-banner {
+    background: url('../img/bg-masthead.jpg') no-repeat;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ocean-banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1c375e;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.ocean-banner h1 {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.ocean-banner h1, 
+.ocean-banner form {
+    position: relative;
+    z-index: 2;
+}
+
+.form-one {
+    display: flex;
+}
+
+.form-one input {
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    width: 500px;
+    padding: 20px;
+    margin-right: 20px;
+    
+}
+
+.form-one button {
+    padding: 0 30px;
+    font-size: 1.25rem;
+}
+
+.information-icons {
+    background-color: #f8f9fa;
+    padding: 150px 0; /*92px 0;*/
+}
+
+.information-icons .container {
+    display: flex; 
+    text-align: center;
+}
+
+.information-icons .container i {
+    font-size: 72px;
+    color: #0d6efd;
+    margin-bottom: 20px;
+}
+
+.information-icons .container h3{
+    color: #212529;
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+
+.information-icons .container p{
+    color: #212529  ;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: normal;
+}
+
+
+.fully {
+    width: calc(100% / 3);
+}
+
+.ready {
+    width: calc(100% / 3);
+}
+
+.use {
+    width: calc(100% / 3);
+}
+
+.showcase-single {
+    display: flex;
+    align-items: center;
+}
+
+.showcase-single .image {
+    width: 50%;
+    height: 480px;
+}
+
+.showcase-single .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.showcase-single h2 {
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+.showcase-single p {
+    color: #212529  ;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: normal;
+    line-height: 1.5;
+}
+
+.showcase-single .content {
+    width: 50%;
+    padding: 0 110px;
+}
+
+.showcase-single:nth-of-type(2) .content{
+    order: 2;
+}
+
+.showcase-single:nth-of-type(2) .image{
+    order: 1;
+}
+
+
+.users {
+    padding: 135px;
+    background: #f8f9fa;
+}
+
+
+.users .container h2{
+    font-size: 31px;
+    text-align: center;
+    margin-bottom: 48px;
+    color: #212529;
+}
+
+.users .container .row{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.column img {
+    max-width: 192px;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.column h5{
+    font-size: 20px;
+    text-align: center;
+}
+
+.column p{
+    font-size: 16px;
+    color: #212529;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+.ocean-banner-two {
+    background: url('../img/bg-masthead.jpg') no-repeat;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ocean-banner-two::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1c375e;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.ocean-banner-two h1 {
+    color: white;
+    font-size: 31px;
+    margin-bottom: 24px;
+}
+
+.ocean-banner-two h1, 
+.ocean-banner-two .form-two{
+    position: relative;
+    z-index: 1; 
+}
+
+.form-two {
+    display: flex;
+}
+
+.form-two input {
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    width: 500px;
+    padding: 20px;
+    margin-right: 20px;
+    
+}
+
+.form-two button {
+    padding: 0 30px;
+    font-size: 1.25rem;
+}
+
+
+
+
+
+
+.footer {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link .links-ul{
+    display: flex; 
+    margin-bottom: 8px;
+
+}
+
+.link .links-ul .lis{
+    margin-right: 16px;
+    color: #0d6efd;
+    list-style: none;
+    text-decoration: underline;
+}
+
+.link .links-ul .lis::after{
+    
+}
+
+.link p{
+    color: #777;
+}
+
+.redes {
+   
+}
+
+.redes {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.redes .icones a{
+    color: #0d6efd;
+    display: flex;
+    font-size: calc(1.3rem + 0.6vw);
+    text-decoration: none;
+    padding-left: 20px;
+}
